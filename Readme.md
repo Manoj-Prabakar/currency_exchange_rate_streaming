@@ -37,8 +37,7 @@ currency_exchange_rate_streaming/
 ├── test_cur_exc_rate_streamer.py   					# Unit tests for CurrencyExchangeRateStreamer functionality
 ├── README.md                       					# Project documentation
 
-Place your CSV file containing the streaming data in the path/to/rates_sample.csv.
-Update the file paths in hourly_job.py and minutely_job.py to point to your input CSV and output CSV.
+Place your CSV file containing the streaming data in the hourly_rates_sample.csv and minutely_rates_sample.csv.
 
 Run the hourly job using:
 
